@@ -1,0 +1,1 @@
+while sleep 300; do wget -O prelist.txt "http://list.didsoft.com/get?email=ehsan.ghoreishi@intuition.tech&pass=vnr2uw&pid=httppremium&https=yes&showcountry=no"; sudo sed -e 's#^#http://#' prelist.txt > list.txt; done
