@@ -17,7 +17,7 @@ def build_vocab(file_path, target):
 
     if target:
         w2i = {w: np.int32(i+2) for i, w in enumerate(vocab)}
-        w2i['<s>'], w2i['</s>'] = np.int32(0), np.int32(1) # 文の先頭・終端記号
+        w2i['<s>'], w2i['</s>'] = np.int32(0), np.int32(1)
     else:
         w2i = {w: np.int32(i) for i, w in enumerate(vocab)}
 
