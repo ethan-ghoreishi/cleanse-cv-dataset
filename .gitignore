@@ -1,2 +1,7 @@
 /virtualenvironment
 crawler_cv.ipynb
+/textsum_keras/glove.6B.50d.txt
+/textsum_keras/glove.6B.100d.txt
+/textsum_keras/glove.6B.200d.txt
+/textsum_keras/glove.6B.300d.txt
+
